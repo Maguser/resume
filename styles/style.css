@@ -1,0 +1,90 @@
+
+/* запросы mobile first */
+/* стили для любой ширины */
+
+
+/* стили для ширины крупнее мобильных */
+/* стили для ширины 400 пикселов и выше */
+@media (min-width: 400px) {
+ 
+}
+
+/* стили для ширины крупнее фаблетов */
+/* стили для ширины 550 пикселов и выше */
+@media (min-width: 550px) {
+
+}
+
+/* стили для ширины крупнее планшетов */
+
+/* стили для ширины 750 пикселов и выше */
+@media (min-width: 750px) {
+  
+}
+
+/* стили для ширины крупнее компьютерных мониторов */
+/* стили для ширины 1000 пикселов и выше */
+@media (min-width: 1000px) {
+  
+}
+
+/* стили для ширины крупнее компьютерных HD-мониторов */
+/* стили для ширины 1200 пикселов и выше */
+@media (min-width: 1200px) {
+
+}
+
+html {
+    height: 100%;
+    background: rgb(254, 255, 255);
+    background-repeat: no-repeat;
+    font-family: 'El Messiri', Times, sans-serif;
+    font-variant: small-caps;
+    color: black;
+    font-weight: 700;
+    line-height: 1.2;
+}
+    /*font-family: 'El Messiri', Times, sans-serif;
+    font-variant: small-caps;*/
+h1 {
+    text-align: center;
+    font-size: 2em;
+    background-image: url(../image/underline.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding-bottom: 7px;
+}
+p {
+    text-align: center;
+    font-size: 1.2em;
+}
+h2 {
+    font-size: 1em;
+}
+.content {
+    
+}
+
+.resume {
+    background: url(../image/scroll_top.jpg) no-repeat center top,
+    url(../image/scroll_bottom.jpg) no-repeat center bottom,
+    url(../image/scroll_middle.jpg) repeat-y center top;
+    padding: 70px 80px 60px 80px;
+    
+    float: left;
+}
+.foto img{
+    float: right;
+    margin-right: 40px;
+    border: 5px solid #897373;
+    padding: 0;
+}
+
+.resume li {
+    list-style: none;
+    text-align: center;
+    font-size: .8em;
+}
+ul {
+    padding: 0;
+}

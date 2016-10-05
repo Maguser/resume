@@ -1,0 +1,4 @@
+			/* *** base style of all styles *** */
+@import url(normalize.css);
+@import url(style.css);
+@import url(https://fonts.googleapis.com/css?family=El+Messiri:700,400&subset=latin,cyrillic);
